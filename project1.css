@@ -1,0 +1,289 @@
+.container1{
+    background-color: gray;
+}
+.container2{
+    background-color: lightgrey;
+    height: fit-content;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+}
+.pd{
+    padding: 0;
+    margin: 0;
+}
+.anchor{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+/* .anchor:hover{
+    background-color: orangered;
+    border:1px solid orangered !important;
+    padding: 6px;
+} */
+.anchor2{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px;
+    transition: 0.5s;
+    
+}
+
+#search{
+    border-bottom-left-radius: 40px!important;
+    border-top-left-radius: 40px !important; 
+    box-shadow: none;
+    
+}
+.btn1{
+    background-color: black;
+    border-bottom-right-radius: 40px!important;
+    border-top-right-radius: 40px !important; 
+    
+    
+}
+#btn2,#btn3,#btn4{
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+.navbar-toggler{
+  
+    color: white !important;
+    background-color: white !important;
+}
+ul li {
+    margin-left: 40px !important;
+    
+}
+.nav-item{
+    /* padding-left: 40px !important; */
+}
+ul li a:hover{
+    color: orangered !important;
+}
+ul li{
+    position: relative;
+}
+ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: orangered;
+    display: inline-block;
+    margin: auto;
+    transition: 0.3s;
+    color: orangered;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    
+    
+
+}
+
+.span{
+    position: absolute;
+    bottom: 1px;
+    height: 2px !important;
+    background-color: orangered !important;
+    color: blue !important;
+    width: 100% !important;
+}
+ul li a:hover::after{
+    /* content: ''  !important; */
+    /* content: 2px; */
+    /* height: 1px  !important; */
+    width: 100%  !important;
+    background-color: red !important; 
+    width: 100%;  
+    
+
+} 
+.services::after{
+    background: orangered;
+    content: '';
+    width: 50%;
+    height: 3px;
+    display: block;
+    margin: 7px auto;
+    
+    
+}
+.modern{
+    
+}
+.modern::before{
+    content: "\f304";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+}
+.high::before{
+    content: "\f559";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+}
+.flexible::before{
+    content: "\f012";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+
+}
+.free::before{
+    content: "\f0c0";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+
+
+}
+.cool::before{
+    content: "\f490";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+
+}
+.mobile::before{
+    content: "\f10b";
+    font-family: FontAwesome;
+    padding-right: 5px;
+    color: orangered;
+    padding-right: 15px;
+
+}
+
+.More{
+    color: orangered;
+}
+.container4{
+    background:url(/images/banner.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bx1{
+    box-shadow: 10px 20px 20px 5px;
+}
+.plans::after{
+    content: '';
+    height: 3px;
+    width: 65%;
+    display: block;
+    background-color: orangered;
+    margin: 6px auto;
+    margin-top: 10px;
+}
+.card1{
+    height: 500px !important;
+}
+
+ .check1{ 
+    background-color: red ;
+    box-shadow: none !important;
+    color: white !important;
+    
+}
+.save{
+    /* border-top-left-radius: 45%; */
+    /* border-top-right-radius: 45%; */
+    /* border-bottom-left-radius: 45%; */
+    /* border-bottom-right-radius: 45%; */
+    
+    font-size: 70%;
+    color: white;
+    
+}
+.card1{
+    width: 55%;
+    box-shadow: 5px 10px 15px  !important;
+}
+body{
+    line-height: 1.8;
+}
+
+.box4{
+    width: 80%;
+     height: 80%;
+     border: 1px solid grey; 
+     box-shadow: 5px 10px 15px grey;
+
+}
+.ali{
+    border-radius: 50%;
+}
+.container6{
+    background-color: lightgrey;
+}
+.align{
+    line-height: 1.6;
+}
+.continue{
+     text-decoration: none;
+    color: red;
+}
+.continue:hover{
+    /* text-decoration: none; */
+   color: red;
+}
+
+.container7{
+    background:url(images/light-bulb.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.footer-icon a{
+    color: black;
+
+}
+.footer-icon a:hover{
+    background-color:orangered;
+    
+
+}
+td a{
+    text-decoration: none;
+    color: black;
+}
+td a:hover{
+    color: orangered;
+}
+.mail-address a{
+    text-decoration: none;
+    color: grey;
+}
+
+#shope .xyz{
+    background-color: yellow;
+}
+
+.abc{
+    background-color: blue;
+}
+.xyz{
+    background-color: red;
+}
+
+.style1{
+    background-color: aqua;
+}
+#price,#price1,#price2, #month ,#month1 ,#month2, #textAdvance{
+    color: #d9534f;
+}
+
+
+
+
+
+
